@@ -1,0 +1,18 @@
+﻿@model List<WebApplication1.Models.Family>
+
+
+
+<html>
+    <head>
+        <h1>MEMBERS OF FAMILY</h1>
+    </head>
+    <body>
+        <ul>
+        @foreach (var i in Model)
+        {
+            <li>@i.Id and his name is @i.Name</li>
+        }
+        
+        </ul></>
+    </body>
+</html>
